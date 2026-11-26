@@ -11,6 +11,7 @@ import { AiDemosSection } from "@/components/sections/AiDemosSection";
 import { CompareSection } from "@/components/sections/CompareSection";
 import { CalculatorSection } from "@/components/sections/CalculatorSection";
 import { MarketsSection } from "@/components/sections/MarketsSection";
+import { SchoolLogosSection } from "@/components/sections/SchoolLogosSection";
 import { AppsSection } from "@/components/sections/AppsSection";
 import { PricingSection } from "@/components/sections/PricingSection";
 import { TrustSection } from "@/components/sections/TrustSection";
@@ -65,6 +66,7 @@ function Index() {
         <CompareSection />
         <CalculatorSection />
         <MarketsSection />
+        <SchoolLogosSection />
         <AppsSection />
         <PricingSection />
         <TrustSection />

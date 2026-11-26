@@ -213,6 +213,13 @@
     radial-gradient(32rem 24rem at 12% 70%, oklch(0.83 0.11 168 / 18%), transparent 70%);
 }
 
+@keyframes logo-marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+@utility animate-logo-marquee { animation: logo-marquee 55s linear infinite; }
+@media (prefers-reduced-motion: reduce) { .animate-logo-marquee { animation: none; } }
+
 @keyframes float-y { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
 @utility animate-float { animation: float-y 7s ease-in-out infinite; }
 @utility animate-float-slow { animation: float-y 9s ease-in-out infinite; }
